@@ -39,6 +39,5 @@ build/
 .DS_Store
 
 # CONFIG
-
-properties.json
+/properties.json
 /src/main/resources/*
