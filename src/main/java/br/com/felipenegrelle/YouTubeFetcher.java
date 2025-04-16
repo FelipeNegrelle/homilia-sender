@@ -81,6 +81,8 @@ public class YouTubeFetcher {
 
         String command = "yt-dlp -x --audio-format mp3 -o " + outputPath + " " + videoUrl;
 
+        Logger.info(command);
+
         try {
             Process process = Runtime.getRuntime().exec(command);
 
